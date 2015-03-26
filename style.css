@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    background-color: #990099;
+    font-family: 'Permanent Marker', cursive;
+}
+
+section {
+    background-color: #00CC00;
+    padding: 2%;
+    border-radius: 25%;
+}
+
+.main {
+    background-color: #ffffff;
+    padding: 4%;
+    border-radius: 25%;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+
+}
+
+button {
+    background-color: #990099;
+    color: #000;
+    border-color: #00CC00;
+    width: 150px;
+    height: 50px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1em;
+}
+
+table {
+    border: none;
+    text-align: center;
+    margin-left: 15%;
+
+}
+
+td {
+    border: solid 1px #00CC00;
+    height: 150px;
+    width: 150px;
+    font-size: 2.5em;
+}
+
+.turn {
+    float: right;
+    margin-right: auto;
+    border: solid 1px #990099;
+    padding: 2%;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #00CC00;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #00CC00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffff;
+}
+
+/* selected link */
+a:active {
+    color: #990099;
+}
+
+/* mouse over link */
+section a:hover {
+    color: #990099;
+}
+
+/* selected link */
+section a:active {
+    color: #ffffff;
+}
